@@ -10,7 +10,7 @@ namespace EFCodeFirstTutorial.Console.Models
     public class SchoolContext : DbContext
     {
         public SchoolContext()
-            : base()
+            : base("name=SchoolDBConnectionString")
         {
 
         }

@@ -20,6 +20,10 @@ namespace EFCodeFirstTutorial.Console.Models
         public decimal Height { get; set; }
         public float Weight { get; set; }
 
+        // Foreign key for Standard
+        public int StandardId { get; set; }
+
+        // Navigation property
         public Standard Standard { get; set; }
     }
 }

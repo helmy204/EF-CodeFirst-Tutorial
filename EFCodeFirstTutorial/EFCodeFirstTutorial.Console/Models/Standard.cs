@@ -16,6 +16,7 @@ namespace EFCodeFirstTutorial.Console.Models
         public int StandardId { get; set; }
         public string StandardName { get; set; }
 
+        // Collection navigation property
         public ICollection<Student> Students { get; set; }
     }
 }
